@@ -15,10 +15,11 @@ Supports training and testing modes.
 ## Requirements
 
 Ensure you have the following dependencies installed:
-
+```
 pip install gymnasium numpy matplotlib pickle5
+```
 
-# How to Run
+## How to Run
 
 Training the Agent
 
