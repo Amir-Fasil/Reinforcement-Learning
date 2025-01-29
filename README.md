@@ -8,9 +8,9 @@ Implements Q-learning with an epsilon-greedy exploration strategy.
 
 Supports training and testing modes.
 
- Saves and loads a Q-table using pickle.
+Saves and loads a Q-table using pickle.
 
- Plots training performance as a PNG file (frozen_lake8x8.png).
+Plots training performance as a PNG file (frozen_lake8x8.png).
 
 ## Requirements
 
@@ -55,3 +55,16 @@ The script saves a plot of rewards over time as frozen_lake8x8.pngwhen training,
 
 
 
+# MineRL Model
+
+This project implements PPO, a reinforcement algorithm for navigating through minecraft enviroment to find a location.
+
+requirments
+```
+pip install minerl gym matplotlib numpy
+```
+### Problem I faced
+
+I have tried to install gym and minerl in the normal way for the MineRl task on my window, but both of which were not being installed properlly, so I have found a way to install both from a github, which is just a fix for the problem I had with the first method. the consequnce for this is that i don't have access to the enviroment i was currentlly working on. the enviroments it has only are the one from Diamond and Basalt Competition.
+
+I have also implemented the MineRL for different enviroment for the one that is found on Basalt Competition. the task is turning the camera 360 degree and the images on the colabs are to show the camera is turning.
