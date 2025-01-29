@@ -1,16 +1,16 @@
-### FrozenLake Q-Learning Agent
+# FrozenLake Q-Learning Agent
 
 This project implements a Q-learning agent to solve the FrozenLake-v1 environment from OpenAI Gymnasium using reinforcement learning. The agent is trained to navigate an 8x8 frozen lake without falling into holes while maximizing rewards.
 
-Features
+## Features
 
-# Implements Q-learning with an epsilon-greedy exploration strategy.
+### Implements Q-learning with an epsilon-greedy exploration strategy.
 
-# Supports training and testing modes.
+#### Supports training and testing modes.
 
-# Saves and loads a Q-table using pickle.
+### Saves and loads a Q-table using pickle.
 
-# Plots training performance as a PNG file (frozen_lake8x8.png).
+### Plots training performance as a PNG file (frozen_lake8x8.png).
 
 Requirements
 
