@@ -23,8 +23,9 @@ pip install gymnasium numpy matplotlib pickle5
 Training the Agent
 
 To train the agent and save the learned Q-table:
-
+```
 python FrozenLakeUsingQLearning.py
+```
 
 This will create a frozen_lake8x8.pkl file storing the trained Q-table.
 
