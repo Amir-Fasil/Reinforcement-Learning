@@ -4,27 +4,27 @@ This project implements a Q-learning agent to solve the FrozenLake-v1 environmen
 
 ## Features
 
-### Implements Q-learning with an epsilon-greedy exploration strategy.
+Implements Q-learning with an epsilon-greedy exploration strategy.
 
-#### Supports training and testing modes.
+Supports training and testing modes.
 
-### Saves and loads a Q-table using pickle.
+ Saves and loads a Q-table using pickle.
 
-### Plots training performance as a PNG file (frozen_lake8x8.png).
+ Plots training performance as a PNG file (frozen_lake8x8.png).
 
-Requirements
+## Requirements
 
 Ensure you have the following dependencies installed:
 
 pip install gymnasium numpy matplotlib pickle5
 
-How to Run
+# How to Run
 
 Training the Agent
 
 To train the agent and save the learned Q-table:
 
-python frozen_lake_qlearning.py
+python FrozenLakeUsingQLearning.py
 
 This will create a frozen_lake8x8.pkl file storing the trained Q-table.
 
@@ -32,7 +32,7 @@ Testing the Agent
 
 After training, you can test the agent with:
 
-python frozen_lake_qlearning.py --test
+you just need to change the boolean value for is_training to false, the value for render to true, and set number of episodes to 1 to execute the test one time
 
 This will load the saved Q-table and render the environment.
 
@@ -48,16 +48,7 @@ Actions: Left (0), Down (1), Right (2), Up (3)
 
 Performance Visualization
 
-The script saves a plot of rewards over time as frozen_lake8x8.png, allowing you to see how learning progresses.
+The script saves a plot of rewards over time as frozen_lake8x8.pngwhen training, allowing you to see how learning progresses.
 
-Demo
-
-If you'd like to add a visual demo, convert a gameplay video into a GIF and embed it in this README:
-
-![FrozenLake Demo](demo.gif)
-
-Author
-
-Created by [Your Name]
 
 
